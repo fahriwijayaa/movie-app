@@ -1,4 +1,3 @@
-import React from "react";
 import { useLocation } from "react-router";
 import { Hash } from "../../constants";
 import Detail from "./detail";

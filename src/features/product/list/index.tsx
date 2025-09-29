@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../../../components/button";
 import CustomTable from "../../../components/table";
 import { useProducts } from "../../../hooks/product/useProducts";

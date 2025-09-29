@@ -1,5 +1,4 @@
 import React from "react";
-import { FaHome, FaList } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
 import { useNavigate } from "react-router";
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Card from "../card";
 import type { Movie } from "../../services/movie";
 import { useNavigate } from "react-router";

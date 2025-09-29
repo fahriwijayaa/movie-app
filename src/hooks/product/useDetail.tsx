@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { getDetail, type Product } from "../../services/product";
 
 export const useDetail = () => {
