@@ -40,9 +40,9 @@ const CustomFormField = <T extends FieldValues>(
       render={({ field }) => (
         <FormItem>
           {label && (
-            <FormLabel>
+            <FormLabel className=" text-white">
               {label}
-              {required && <span className=" text-red-400">*</span>}
+              {required && <span className=" text-white">*</span>}
             </FormLabel>
           )}
           <FormControl>{children(field)}</FormControl>
